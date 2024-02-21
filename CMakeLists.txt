@@ -511,7 +511,7 @@ target_compile_definitions(
 
 if (WIN32)
   target_compile_definitions(
-    freetype PRIVATE _CRT_SECURE_NO_WARNINGS _CRT_NONSTDC_NO_WARNINGS)
+    freetype.freetype PRIVATE _CRT_SECURE_NO_WARNINGS _CRT_NONSTDC_NO_WARNINGS)
 #  if (BUILD_SHARED_LIBS)
 #    target_compile_definitions(
 #      freetype PRIVATE DLL_EXPORT)
